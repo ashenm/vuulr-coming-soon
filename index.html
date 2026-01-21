@@ -15,16 +15,16 @@
             opacity: 1;
             animation: fadein 3s forwards;
         }
+        h1 {
+            font-family: "Avenir Next Rounded", "Gotham Rounded", "Nunito", "Montserrat", Arial, Verdana, Helvetica, sans-serif;
+        }
         h2 {
             font-weight: 300;
             margin-bottom: 25px;
         }
         img {
-            width: 25%; /* Image width */
+            width: 25%;
             border: 0; /* For IE */
-            /* Aspect ratio of image, gives initial dimension to prevent text moving down once image is loaded */
-            /* When changing logo, change this also */
-            aspect-ratio: 125 / 50;
         }
         #main {
             vertical-align: middle;
@@ -34,14 +34,14 @@
         #progress {
             width: 45%; /* Bar width */
             margin: 0 auto;
-            border-radius: 10px; /* Roundness */
-            background-color: #a8a8a8; /* Background colour */
-            padding: 7px 5px;
+            border-radius: 25px; /* Roundness */
+            background-color: #ffe0ad; /* Background colour */
+            padding: 5px;
             /* border: 5px solid #a8a8a8; Border */
         }
         #fill {
             padding: 2px 0;
-            background-color: #00b98b; /* Fill colour */
+            background-color: #0698e2; /* Fill colour */
             width: 35%; /* Bar percentage, change text below also */
             border-radius: 25px; /* Roundness */
             animation: proanimate 2s;
@@ -63,9 +63,6 @@
         }
 
         @media screen and (max-width:600px) {
-            img {
-                width: 60%;
-            }
             h1 {
                 font-size: 1.3em;
             }
@@ -78,13 +75,13 @@
             }
         }
     </style>
-    <title>Coming Soon</title>
+    <title>Coming Soon!</title>
 </head>
 <body>
     <div id="main">
-        <img src="logo.png" alt="Logo Image">
-        <h1>Company Name</h1>
-        <h2>Our website is currently under construction. </h2>
+        <img src="logo.png" alt="Vuulr Logo">
+        <h1>Vuulr</h1>
+        <h2>Coming Soon!</h2>
         <div id="progress"><div id="fill"><div id="barpercent"><h3>35%</h3></div></div></div>
     </div>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
